@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 
-/*
-	Telephasic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -71,6 +65,24 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
+/* Chatroom bar */
+	.line-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+        .line {
+            flex: 1;
+            height: 1px;
+            background-color: #e2e2e2; /* Line color */
+            margin: 0 10px; /* Space between line and text */
+        }
+        .text {
+            font-size: 24px; /* Text size */
+            font-weight: bold; /* Text weight */
+        }
 
 /* Basic */
 
