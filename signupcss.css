@@ -9,6 +9,18 @@ body, html {
 	height:100%;
 }
 
+.transparent-button {
+            background-color: transparent;
+            color: white;
+            padding: 10px 15px; /* Padding from top and left */
+            border: none; /* Remove default border */
+            cursor: pointer; /* Change cursor to pointer */
+            position: absolute; /* Position in top left corner */
+            top: 10px; /* Adjust as necessary */
+            left: 10px; /* Adjust as necessary */
+        }
+
+
 body {
 	background: #f6f5f7;
 	display: flex;
