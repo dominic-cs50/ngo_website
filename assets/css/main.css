@@ -241,6 +241,15 @@ input, select, textarea {
 		header.major {
 			text-align: center;
 		}
+/* Login and Signup */
+
+	.signup{
+            position: absolute;
+            right: 0.3em;
+            padding: 0.3em 1em 0.3em 1em; 
+            height: 36px;
+            background-color: #f47488;
+	}
 
 /* Container */
 
