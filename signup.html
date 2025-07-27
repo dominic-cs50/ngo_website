@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+	<!-- css -->
 	<style>
 		@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 		
@@ -254,6 +255,21 @@
 		    text-decoration: none;
 		}
 	</style>
+
+	<!-- js -->
+	<script>
+		const signUpButton = document.getElementById('signUp');
+		const signInButton = document.getElementById('signIn');
+		const container = document.getElementById('container');
+		
+		signUpButton.addEventListener('click', () => {
+			container.classList.add("right-panel-active");
+		});
+		
+		signInButton.addEventListener('click', () => {
+			container.classList.remove("right-panel-active");
+		});
+	</script>
 	
 	<div class="container" id="container">
 		<div class="form-container sign-up-container">
