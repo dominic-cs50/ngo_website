@@ -40,6 +40,17 @@ blockquote, q {
 		content: none;
 	}
 
+.transparent-button {
+            background-color: transparent;
+            color: white;
+            padding: 1em 1.5em; 
+            border: none; 
+            cursor: pointer; 
+            position: absolute; 
+            top: 1em; 
+            right: 1em;
+        }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
