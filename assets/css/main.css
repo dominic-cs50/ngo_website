@@ -41,10 +41,12 @@ blockquote, q {
 	}
 
 .transparent-button {
+	    font-size:1em;
             background-color: transparent;
             color: white;
             padding: 1em 1.5em; 
-            border: none; 
+            border-color: white;
+	    border-width: 2px; 
             cursor: pointer; 
             position: absolute; 
             top: 1em; 
