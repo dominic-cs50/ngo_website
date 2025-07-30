@@ -2165,9 +2165,6 @@ input, select, textarea {
 	}
 
 /* Header */
-div.shrinelogo::before {
-	background-image: url('images/logo.png');
-}
 	#logo {
 		position: absolute;
 		z-index: 1;
@@ -2194,6 +2191,7 @@ div.shrinelogo::before {
 			letter-spacing: 3px;
 			text-align: center;
 			text-transform: uppercase;
+			background-image: url('images/logo.jpg');
 		}
 
 	#nav {
