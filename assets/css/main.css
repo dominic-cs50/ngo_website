@@ -2166,7 +2166,7 @@ input, select, textarea {
 
 /* Header */
 div.shrinelogo::before {
-	content:url('images/logo.png');
+	background-image: url('images/logo.png');
 }
 	#logo {
 		position: absolute;
