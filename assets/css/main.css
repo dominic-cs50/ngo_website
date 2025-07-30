@@ -2165,7 +2165,9 @@ input, select, textarea {
 	}
 
 /* Header */
-
+div.shrinelogo::before {
+	content:url(images/logo.png);
+}
 	#logo {
 		position: absolute;
 		z-index: 1;
