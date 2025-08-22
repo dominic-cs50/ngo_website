@@ -1,11 +1,13 @@
 <?php
 
-// Create connection
-$conn = new mysqli("shrilvyn_Accounts", $username, $password, $dbname);
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+$username = ($_POST["username"]);
+$email = ($_POST["email"]);
+$password = ($_POST["password']);
+
+$link = new mysqli("shrilvyn_Accounts", "Shrine1234", "Shrine1234!", "DatabaseTable");
+
+if ($link === false) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 
 // Prepare and bind
